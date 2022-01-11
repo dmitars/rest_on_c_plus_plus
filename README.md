@@ -1,3 +1,3 @@
 # rest_on_c_plus_plus
-This solution uses two libraries: [sqlite3](https://www.sqlite.org/index.html) and [Crow](https://crowcpp.org/getting_started/setup/linux/).
+This solution uses two libraries: [sqlite3](https://www.sqlite.org/index.html) and [Crow](https://crowcpp.org/getting_started/setup/linux/). These libraries can be found automatically in your system if they are installed with package manager or just installed to standard c++ libraries path (on ubuntu it is /usr/include, /usr/lib, /usr/local/include, /usr/local/lib). 
 Install these libraries depending on your system, file of database will be created automatically. Application uses port 8084 by default, to change it just replace this value in the end of "main" method in main.cpp. 
